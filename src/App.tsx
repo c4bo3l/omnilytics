@@ -1,8 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { useAlphaNumericGenerator, useNumericGenerator } from './hooks';
 
 function App() {
+  const { generateAlphaNumeric, generateAlphabets } = useAlphaNumericGenerator();
+  const { generateIntegerStr, generateFloatStr } = useNumericGenerator();
+  console.log(generateAlphaNumeric());
+  console.log(generateAlphabets());
+  console.log(generateIntegerStr());
+  console.log(generateFloatStr());
   return (
     <div className="App">
       <header className="App-header">
