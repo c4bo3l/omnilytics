@@ -25,8 +25,17 @@ export const useAlphaNumericGenerator = () => {
     return result.join('');
   };
 
+  const generateString = (length?: number) => {
+    const selector = getRandomIntInRange(0, 1000) % 2;
+    if (selector === 0) {
+      return generateAlphaNumeric(length);
+    }
+    return generateAlphabets(length);
+  };
+
   return {
     generateAlphaNumeric,
-    generateAlphabets
+    generateAlphabets,
+    generateString
   };
 };

@@ -22,7 +22,7 @@ export const useNumericGenerator = () => {
     const selectedMultiplier = length ? Math.pow(10, length) : 
       multiplier[getRandomIntInRange(0, multiplier.length - 1)];
     const result = Math.random() * selectedMultiplier;
-    return result;
+    return result.toString();
   };
 
   const generateNumericStr = (length?: number) => {
