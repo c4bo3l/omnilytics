@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/omnilytics/static/css/main.2f98737e.chunk.css",
+    "main.js": "/omnilytics/static/js/main.17af353c.chunk.js",
+    "main.js.map": "/omnilytics/static/js/main.17af353c.chunk.js.map",
+    "runtime-main.js": "/omnilytics/static/js/runtime-main.b4481663.js",
+    "runtime-main.js.map": "/omnilytics/static/js/runtime-main.b4481663.js.map",
+    "static/css/2.150d169a.chunk.css": "/omnilytics/static/css/2.150d169a.chunk.css",
+    "static/js/2.c01e01d1.chunk.js": "/omnilytics/static/js/2.c01e01d1.chunk.js",
+    "static/js/2.c01e01d1.chunk.js.map": "/omnilytics/static/js/2.c01e01d1.chunk.js.map",
+    "static/js/3.87340752.chunk.js": "/omnilytics/static/js/3.87340752.chunk.js",
+    "static/js/3.87340752.chunk.js.map": "/omnilytics/static/js/3.87340752.chunk.js.map",
+    "index.html": "/omnilytics/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/omnilytics/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.2f98737e.chunk.css.map": "/omnilytics/static/css/main.2f98737e.chunk.css.map",
+    "static/js/2.c01e01d1.chunk.js.LICENSE.txt": "/omnilytics/static/js/2.c01e01d1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b4481663.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.c01e01d1.chunk.js",
+    "static/css/main.2f98737e.chunk.css",
+    "static/js/main.17af353c.chunk.js"
+  ]
+}
